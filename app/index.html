@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <!-- <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ElixirHelperEmber</title>
     <meta name="description" content="">
@@ -20,8 +20,9 @@
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/elixir-helper-ember.js"></script>
 
-    {{content-for "body-footer"}}
+    {{content-for "body-footer"}} -->
 
-    <div id="code"></div>
+    <code {{did-insert this.setupCodeMirror}}></code>
+    <!-- <div id="code"></div> -->
   </body>
 </html>
