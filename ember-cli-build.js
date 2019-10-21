@@ -20,5 +20,27 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  // let app = new EmberApp(defaults, {
+  //   autoImport: {
+  //     alias: {
+  //       // when the app tries to import from "plotly.js", use
+  //       // the real package "plotly.js-basic-dist" instead.
+  //       'plotly.js': 'plotly.js-basic-dist',
+  
+  //       // you can also use aliases to pick a different entrypoint
+  //       // within the same package. This can come up when the default
+  //       // entrypoint only works in Node, but there is also a browser
+  //       // build available (and the author didn't provide a "browser"
+  //       // field in package.json that would let us detect it
+  //       // automatically).
+  //       'handlebars': 'handlebars/dist/handlebars'
+  //     },
+  //     exclude: ['some-package'],
+  //     webpack: {
+  //       // extra webpack configuration goes here
+  //     }
+  //   }
+  // });
+
   return app.toTree();
 };
