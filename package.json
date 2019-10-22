@@ -23,8 +23,6 @@
     "@glimmer/component": "^0.14.0-alpha.12",
     "babel-eslint": "^10.0.2",
     "broccoli-asset-rev": "^3.0.0",
-    "codemirror": "^5.49.0",
-    "codemirror-mode-elixir": "^1.1.2",
     "ember-auto-import": "^1.5.3",
     "ember-cli": "3.14.0-beta.2",
     "ember-cli-app-version": "^3.2.0",
