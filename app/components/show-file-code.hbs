@@ -1,4 +1,8 @@
-{{yield}}
-   <div id="code" {{action "setupCodeMirror"}}></div>
 
-    <code {{did-insert this.setupCodeMirror}}></code>
+
+{{yield}}
+<div class="code-box"> 
+   <CodeBlock @language="elixir">
+      some stuff
+   </CodeBlock>
+</div>

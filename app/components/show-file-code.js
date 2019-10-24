@@ -1,5 +1,5 @@
 import Component from '@glimmer/component';
-
+import { action } from '@ember/object';
 
 
 // import CodeMirror from 'codemirror';
@@ -17,5 +17,9 @@ import Component from '@glimmer/component';
 
 
 export default class ShowFileCodeComponent extends Component {
-
+   
+   @action valueUpdated() {
+      return "wtf"
+   }
+   
 }
